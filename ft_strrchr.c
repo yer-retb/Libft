@@ -6,14 +6,13 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/14 00:32:57 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/24 22:52:46 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 19:13:54 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 char	*ft_strrchr(const char *s, int c)
-
 {
 	int		i;
 	char	*str;
@@ -30,11 +29,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (NULL);
 }
-/*
-int main()
-{
-	char x[] = "";
-	printf("%s \n",ft_strrchr(x, 0));
-	printf("%s \n", strrchr(x, 0));
-}
-*/

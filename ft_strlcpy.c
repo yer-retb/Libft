@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 16:08:48 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/24 22:49:37 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:31:34 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,13 +33,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (len_s);
 }
-/*
-int main()
-{
-	char x[] = "hello";
-	char y[] = "salut";
-
-	printf("%zu \n", ft_strlcpy(x, y, 1));
-	printf("%lu \n", strlcpy(x, y, 1));
-}
-*/

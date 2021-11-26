@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/16 14:46:04 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/16 16:38:27 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:29:35 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,12 +30,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-/*
-int main()
-{
-	char c[] = "hello";
-	char i[] = "Hello";
-	size_t x = ft_strlen(c);
-	printf("%i\n", ft_memcmp(c, i, x));
-}
-*/

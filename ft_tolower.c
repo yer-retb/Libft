@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/12 16:38:24 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/12 16:49:02 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:31:59 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,3 @@ int	ft_tolower(int c)
 		c += 32;
 	return (c);
 }
-/*
-int	main()
-{
-	char x[] = "H1LLO";
-	printf("%c\n%c", ft_tolower(x[1]) , tolower(x[1]));
-}
-*/

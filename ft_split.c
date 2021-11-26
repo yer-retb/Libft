@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/20 14:09:13 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/21 16:27:20 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 20:29:10 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,17 +69,3 @@ char	**ft_split(char const *s, char c)
 	str[j] = NULL;
 	return (str);
 }
-/*
-int main()
-{
-	char x[] = "  hello wo,rld 1,337    ,     ,  by,e   ";	
-	char	**s = ft_split(x, ' ');
-
-	while (*s != NULL)
-	{
-		printf("%s \n",*s);
-		s++;
-	}
-	return (0);
-}
-*/

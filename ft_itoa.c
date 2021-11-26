@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/22 16:58:55 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/26 00:17:29 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:21:27 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ char	*ft_itoa(int n)
 
 	count = count_int(n);
 	i = 0;
-	rsl = (char *)malloc (sizeof (char) * (count + 1));
+	rsl = (char *)malloc(sizeof (char) * (count + 1));
 	if (!rsl)
 		return (NULL);
 	rsl[count] = '\0';
@@ -61,7 +61,3 @@ char	*ft_itoa(int n)
 		rsl[0] = '-';
 	return (rsl);
 }
-// int main()
-// {
-// 	printf("%s \n", ft_itoa(2147483647));
-// }

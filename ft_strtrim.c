@@ -6,14 +6,13 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/21 16:29:49 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/26 13:29:28 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 19:22:31 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
 char	*ft_strtrim(char const *s1, char const *set)
-
 {
 	int		tab [256];
 	size_t	i;
@@ -35,11 +34,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 		--len;
 	return (ft_substr(s1, i, len - i + 1));
 }
-
-// int main()
-// {
-// 	// char y[] = "hellobcda";
-// 	// char f[]= "abcd";
-// 	// printf("");
-// 	printf("%s \n", ft_strtrim("abcdba", "acb"));
-// }

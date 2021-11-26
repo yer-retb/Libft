@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/02 19:32:08 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/11 15:54:51 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:31:37 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-/*
-int	main(int ac, char **av)
-{
-	if (ac > 1)
-	{
-		printf("%zu \n",ft_strlen(av[1]));
-	}
-	return (0);
-}*/

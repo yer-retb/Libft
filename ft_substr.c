@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/17 19:58:05 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/20 15:01:38 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 19:25:38 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,10 +40,3 @@ char	*ft_substr(const char *str, unsigned int start, size_t len)
 	p[j] = '\0';
 	return (p);
 }
-/*
-int main ()
-{
-	char c[] = "hello";
-	printf ("%s \n", ft_substr(c, 2, -1));
-}
-*/

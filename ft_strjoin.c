@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/18 16:59:54 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/20 11:38:26 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:31:26 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,13 +38,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	}
 	return (NULL);
 }
-/*
-int main()
-{
-	char x[] = "";
-	char y[] = "";
-
-	printf("%s \n", ft_strjoin(x, y));
-	//printf("%lu \n", strlca(x, y));
-}
-*/

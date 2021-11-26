@@ -6,18 +6,15 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/08 11:23:13 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/25 17:27:46 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:34:01 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef LIBFT_H
 # define LIBFT_H
 
-# include <stdio.h>
-# include <string.h>
 # include <stdlib.h>
 # include <unistd.h>
-# include <fcntl.h>
 
 int		ft_isalpha(int i);
 int		ft_isdigit(int i);

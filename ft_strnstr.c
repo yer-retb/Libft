@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/14 10:40:53 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/20 15:04:05 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 19:21:48 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,11 +33,3 @@ char	*ft_strnstr(const char *str, const char *needle, size_t len)
 	}
 	return (0);
 }
-
-// int main()
-// {
-// 	char *s1 = "MZIRIBMZIRIBMZE123";
-// 	char *s2 = "MZIRIBMZ";
-// 	size_t max = strlen(s2);
-// 	printf("%s \n", ft_strnstr(s1, s2, 8));
-// }

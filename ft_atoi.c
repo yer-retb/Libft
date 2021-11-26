@@ -6,12 +6,11 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/14 04:03:29 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/26 13:07:00 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 20:15:00 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 int	ft_atoi(const char *s)
 {
@@ -41,10 +40,3 @@ int	ft_atoi(const char *s)
 		return (-1);
 	return (sn * rsl);
 }
-
-// int main()
-// {
-// 	char x[] = "-2147483648458715";
-// 	printf("%i\n", ft_atoi(x));
-// 	printf("%i\n", atoi(x));
-// }

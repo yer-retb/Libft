@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/17 17:20:48 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/24 17:23:48 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:36:08 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ char	*ft_strdup(const char *s1)
 	i = 0;
 	while (s1[i])
 		i++;
-	p = (char *)malloc (i * sizeof(char) + 1);
+	p = malloc (i + 1);
 	if (!p)
 		return (NULL);
 	else
@@ -37,12 +37,3 @@ char	*ft_strdup(const char *s1)
 	p[j] = '\0';
 	return (p);
 }
-
-/*
-int main ()
-{
-	char s[] = "hello world";
-	printf("%s \n", ft_strdup(s));
-	printf("%s \n", strdup(s));
-}
-*/

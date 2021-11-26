@@ -6,7 +6,7 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/14 19:05:17 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/24 22:43:59 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:26:06 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,10 +28,3 @@ void	*ft_memchr(const void *str, int c, size_t n)
 	}
 	return (NULL);
 }
-/*
-int main()
-{
-	char x[] = {0,1,2,3,4,5};
-	printf("%s \n",ft_memchr(x, 2 + 256, 3));
-	printf("%s \n", memchr(x, 2 + 256, 3));
-}*/

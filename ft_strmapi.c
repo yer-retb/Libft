@@ -6,17 +6,11 @@
 /*   By: yer-retb <yer-retb@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/23 21:04:29 by yer-retb          #+#    #+#             */
-/*   Updated: 2021/11/24 15:34:58 by yer-retb         ###   ########.fr       */
+/*   Updated: 2021/11/26 18:31:41 by yer-retb         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
-/*char	c(unsigned int i, char c)
-{
-	c -= 32;
-	return (c);
-}*/
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 
@@ -38,10 +32,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	str[i] = '\0';
 	return (str);
 }
-/*
-int main()
-{
-	char x[] = "yassine";
-	printf("%s \n", ft_strmapi(x, c));
-}
-*/
